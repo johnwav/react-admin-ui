@@ -14,14 +14,14 @@ function App() {
       <div className="main">
         <Navbar />
         <div className="container">
-          <div className="menucontainer">
+          <div className="menuContainer">
             <Menu />
           </div>
           <div className="contentContainer">
             <Outlet />
           </div>
-          <Footer />
         </div>
+        <Footer />
       </div>
     );
   };
