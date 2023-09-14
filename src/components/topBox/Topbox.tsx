@@ -1,7 +1,10 @@
 
 const Topbox = () => {
   return (
-    <div>Topbox</div>
+    <div>
+        <h1>Top Deals</h1>
+
+    </div>
   )
 }
 
