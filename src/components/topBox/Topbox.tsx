@@ -10,7 +10,7 @@ const Topbox = () => {
                   <div className="user">
                     <img src={user.img} alt="" />
                     <div className="userTexts">
-
+                    <span className="username">{user.username}</span>
                     </div>
                   </div>
                   <div className="amount">${user.amount}</div>
