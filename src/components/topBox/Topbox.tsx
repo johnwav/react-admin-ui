@@ -7,7 +7,12 @@ const Topbox = () => {
         <div className="list">
             {topDealUsers.map((user) => (
                 <div className="listItem" key={user.id}>
-                  <div className="user"></div>
+                  <div className="user">
+                    <img src={user.img} alt="" />
+                    <div className="userTexts">
+
+                    </div>
+                  </div>
                   <div className="amount">${user.amount}</div>
                 </div>
             ))}
