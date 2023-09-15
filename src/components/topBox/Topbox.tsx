@@ -7,7 +7,8 @@ const Topbox = () => {
         <div className="list">
             {topDealUsers.map((user) => (
                 <div className="listItem" key={user.id}>
-
+                  <div className="user"></div>
+                  <div className="amount">${user.amount}</div>
                 </div>
             ))}
         </div>
