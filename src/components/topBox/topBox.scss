@@ -20,8 +20,14 @@
                 .userTexts {
                     display: flex;
                     flex-direction: column;
-                    .username{}
-                    .email {}
+                    gap: 5px;
+                    .username{
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    .email {
+                        font
+                    }
                 }
             }
             .amount {
