@@ -1,8 +1,9 @@
 import { topDealUsers } from "../../data"
+import './topBox.scss'
 
 const Topbox = () => {
   return (
-    <div>
+    <div className="topBox">
         <h1>Top Deals</h1>
         <div className="list">
             {topDealUsers.map((user) => (
